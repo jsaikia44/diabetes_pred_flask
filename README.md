@@ -1,1 +1,1 @@
-# diabetes_pred_flask
+#Prediction of Risk of Diabetes
