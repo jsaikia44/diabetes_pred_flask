@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pre diabetes prediction</title>
+</head>
+<link href='static/asset/main.css' rel='stylesheet' type='text/css'>
+<body background="static/diabetes1.jpg">
+<div class="heading">
+<h1>Early stage diabetes prediction</h1>
+<h2>Enter the following details</h2></div>
+<div class="container1">
+<form action="result"method="post">
+  <div class="left_side">
+    <label>your age: </label>
+    <br>
+    <label>Gender: </label>
+    <br>
+    <label>Polyuria (Do your body make more pee than normal?): </label>
+    <br>
+    <label>Polydipsia (Do you feel extreme thirstiness?): </label>
+    <br>
+    <label>Any sudden weight loss?: </label> 
+    <br>
+    <label>Do you feel weakness?): </label> 
+    <br>
+    <label>do you consume excessive amount of food?: </label> 
+    <br>
+    <label>Do you feel your sight blurry?: </label> 
+    <br>
+    <label>Do you have itching problem?: </label> 
+    <br>
+    <label>Do you feel irritation more often?: </label>
+    <br>
+    <label>Does it take more time to heal your wound?: </label>
+    <br>
+    <label>Do you have partial paresis?: </label>
+    <br>
+    <label>Do you feel difficulty in muscle movements?: </label> 
+    <br>
+    <label>Hair loss?: </label>
+    <br>
+    <label>Obesity?: </label>
+  </div> 
+  <div class="right_side">
+    <input type="text" name="age" placeholder="age" required="required" />
+    <br>  
+    <select name="gender" id="gender">
+      <option value="1">Male</option>
+      <option value="0">Female</option>
+    </select>
+    <br> 
+    <select name="polyuria" id="polyuria">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>  
+    <select name="Polydipsia" id="Polydipsia">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>  
+    <select name="weight_loss" id="weight_loss">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+      
+    <select name="weakness" id="weakness">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+      
+    <select name="Polyphagia" id="Polyphagia">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+    <select name="visual blurring" id="visual blurring">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+      
+    <select name="Itching" id="Itching">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+      
+    <select name="Irritability" id="Irritability">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+      
+    <select name="delayed healing" id="delayed healing">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+      
+    <select name="partial paresis" id="partial paresis">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+     
+    <select name="muscle stiffness" id="muscle stiffness">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+      
+    <select name="Alopecia" id="Alopecia">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+      
+    <select name="Obesity" id="Obesity">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div class="button1">
+    <input type="submit" value="Submit">
+  </div>
+</form>
+</div>
+</body>
+</html>
+
