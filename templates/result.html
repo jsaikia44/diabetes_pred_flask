@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pre diabetes prediction</title>
+</head>
+<link href='static/asset/main.css' rel='stylesheet' type='text/css'>
+<body background="static/diabetes1.jpg">
+<div class="heading">
+<h1>Early stage diabetes prediction</h1>
+</div>
+<div class="container2">
+    <h2>{{result}}</h2>
+    {% if result == "There is a chance" %}
+    	<label>please consult a diabotologist.</label>
+    {% endif %}
+    <!-- {% if result["weight_loss"] == '1' %}
+       <th>working</th>
+    {% endif %} -->
+
+</div>
+</body>
+</html>
