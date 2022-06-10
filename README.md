@@ -1,4 +1,4 @@
-# Prediction of Risk of Diabetes
+# Prediction of early stage risk of Diabetes
 ## 15 number of questions asked on basis of which Risk of Diabetes is perdicted.
 ## Qustions are: 
 1. Age (numerical value)
@@ -19,5 +19,7 @@
 ## Machine learning alogorithms used
 1. Logistic regression
 2. Multilayer perceptron
+## Tools used
+Python(Flask, sklearn, pandas, numpy), HTML, CSS 
 ## The webpage is showing below
 ![alt text](https://github.com/jsaikia44/diabetes_pred_flask/blob/main/dia.jpg?raw=true)
